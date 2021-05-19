@@ -1,0 +1,104 @@
+=========	MATH	=========
+
+1.Replace the question mark in the above problem with the appropriate number.
+https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/2-1606299629.png
+Choices: 1 | 4 | 6
+Answer: 6
+2. Which number is equivalent to 3^(4)÷3^(2)
+Choices: 10 | 9 | 15 
+Answer: 9
+3. I am an odd number. Take away one letter and I become even. What number am I?
+Choices: Seven | Nine | Eleven
+Answer: Seven  Explanation:  Seven (take away the ‘s’ and it becomes ‘even’).
+4. Using only an addition, how do you add eight 8’s and get the number 1000?
+Choices: 	8 + 88 + 88 + 8 + 8 = 1000 
+		8 + 88 + 8 + 8 + 8 + 8 + 88= 1000 
+		888 + 88 + 8 + 8 + 8 = 1000
+Answer: 888 + 88 + 8 + 8 + 8 = 1000
+5. Which 3 numbers have the same answer whether they’re added or multiplied together?
+Choices: 	1, 2 and 3
+		2, 3 and 4
+		1, 6 and 7
+Answer: 1, 2 and 3
+6. Fill in the question mark
+https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/fill-the-question-1606300110.png
+Choices: 	18 | 25 | 30
+Answer: 25
+7. If 72 x 96 = 6927, 58 x 87 = 7885, then 79 x 86 = ?
+Choices: 	5897 | 6897 | 4596
+Answer: 6897
+8. How many feet are in a mile? 
+Choices:	5280 | 1000 | 1200 
+Answer: 5280
+9. The day before yesterday I was 25. The next year I will be 28. This is true only one day in a year. What day is my Birthday? 
+Choices: 	December 31 | January 30 | February 14
+Answer: December 31
+10. There is a basket containing 5 apples, how do you divide the apples among 5 children so that each child has 1 apple while 1 apple remains in the basket?
+Choices:	There is no more apple
+		The fifth child will eat the apple of his friend
+		The fifth child will get the apple in the basket
+Answer: 4 children get 1 apple each while the fifth child gets the basket with the remaining apple still in it.
+
+=========	SCIENCE 	=========
+1. How many bones are in the human body?
+Choice: 	206 | 303 | 264
+Answer: 206
+2. The concept of gravity was discovered by which famous physicist?
+Choice: 	Isaac Newton | Albert Einstein | Leonardo De Caprio
+Answer: Sir Isaac Newton
+3. What is the hardest natural substance on Earth? 	
+Choice: 	Gold | Ruby | Diamond
+Answer: Diamond
+4. Which is the main gas that makes up the Earth’s atmosphere?
+Choice: 	Oxygen | Nitrogen | Carbon Dioxide
+Answer: Nitrogen
+5. Roughly how long does it take for the sun’s light to reach Earth?
+Choice:  	8 minutes | 8 seconds | 1 day
+Answer: 8 minutes
+6. At what temperature are Celsius and Fahrenheit equal?
+Choice: 	-40 | 0 | -50
+Answer: -40
+7. What is the biggest planet in our solar system?
+Choice: 	Pluto | Earth | Jupiter
+Answer: Jupiter
+8. What name is given for the number of protons found in the nucleus of an atom?
+Choice: 	Nucleus number | Atomic number | Number of protons
+Answer: Atomic number
+9. What is a material that will not carry an electrical charge called?
+Choice: 	Insulator | Incubator	| Electricity
+Answer: Insulator
+10. How many teeth does an adult human have?
+Choice: 	22 | 30 | 32
+Answer: 32
+
+=========	ENGLISH 	=========
+1. Every sentence must have a subject and ___
+Choice: 	a subject | a verb | an adverb
+Answer: a verb
+2. A plural subject needs ____
+Choice:  	a singular verb | a plural verb | an adverb
+Answer: a singular verb
+3. When two singular subjects are connected by or, use
+Choice:   	a singular verb | a plural verb | an adverb
+Answer: a singular verb
+4. Adjectives usually come
+Choice:   	before a noun | before a pronoun | after a noun 
+Answer: before a noun 
+5. We like ________ our grandmother on Sundays.
+Choice:   	to visit |  visiting | to visit/visiting
+Answer: to visit/visiting
+6. We can't afford ________ a vacation this summer.
+Choice: 	to take | taking | to take/taking
+Answer: to take
+7. The music will continue ________ until you turn it off.
+Choice: 	to play | playing | to play/playing
+Answer: to play/playing
+8. She cannot leave the table without ________ her dinner.
+Choice: 	to finish | finishing | to finish/finishing
+Answer: finishing
+9. It is necessary that every student _____ a uniform.
+Choice: 	wear | weared | wore
+Answer: wear
+10. The doctors recommended that she _____ a holiday.
+Choice: 	took | take | taken
+Answer: take

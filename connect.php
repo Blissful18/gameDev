@@ -9,7 +9,19 @@
 		die("Connection Failed." .mysqli_connect_error());
 	}
 
-	// $user_check = $_SESSION['login_user'];
+	$user_check = $_SESSION['id'];
+
+	$query1 = "SELECT * FROM player WHERE player_id = '$user_check'";
+	$result1 = mysqli_query($con,$query1);
+	$rows = mysqli_num_rows($result1);
+	$row = mysqli_fetch_assoc($result1);
+	if($rows == 1){
+		$_SESSION['id'] = $row['id'];
+		$_SESSION['playername'] = $username;
+		$_SESSION['score'] = 0;
+		$_SESSION['life'] = 3;
+		$_SESSION['diamonds'] = 0;
+	}
 
 	// // SQL Query To Fetch Complete Information Of User
 	// $query = "SELECT * FROM Users where user_id = '$user_check'";

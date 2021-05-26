@@ -3,6 +3,7 @@
 	$_SESSION['player_id'] = '';
     include('connect.php');
 //	include('newPlayer.php');
+    $_SESSION['level'] = 0;
 	$error = '';
 	$error1 = '';
 	$ok = '';

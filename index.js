@@ -11,8 +11,8 @@ const playerSprite = new Image();
 playerSprite.src = "images/angel.png";
 
 let player = new Play(20);
-player.position.x = 5; //5
-player.position.y = 5; //5
+// player.position.x = 5; //5
+// player.position.y = 5; //5
 
 function loop (deltatime)
 {
@@ -20,7 +20,7 @@ function loop (deltatime)
     canvas.drawImage(img,0,0);
     // drawSprite(playerSprite,0,0,player.width,player.height,5,10,player.width,player.height);
     player.speedX = 0;
-    player.speedY = 0;   
+    player.speedY = 0;  
     player.update();
     if (checkForCollision()) {
         player.position.x -= player.speedX;

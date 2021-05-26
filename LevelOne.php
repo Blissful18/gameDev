@@ -1,12 +1,23 @@
 <?php
 	session_start();
     include('connect.php');
-	$id = $_SESSION['id'];
+    $id = $_SESSION['id'];
+    $query = "SELECT * FROM player WHERE player_id = '$id'";
+			        $result = mysqli_query($con,$query);
+                    $rows = mysqli_num_rows($result);
+			        $row = mysqli_fetch_assoc($result);
+			        if($rows == 1){
+                        $_SESSION['id'] = $row['player_id'];
+                        $_SESSION['playername'] = $row['playername'];
+                        $_SESSION['score'] = $row['score']+100;
+                        $_SESSION['life'] = $row['life'];
+                        $_SESSION['diamonds'] = $row['diamonds']+10;
+                        $_SESSION['level'] += 1;
+                    }
     $playername = $_SESSION['playername'];
     $score = $_SESSION['score'];
     $life= $_SESSION['life'];
     $diamonds = $_SESSION['diamonds'];
-    $_SESSION['level'] = 0;
     $level = $_SESSION['level'];
 	$error = '';
 	$error1 = '';
@@ -27,7 +38,7 @@
     <body>
 
         <div align="center" id="top">
-            <span>Status: <?php echo $ok; ?></span>
+            <span> <?php echo $ok; ?></span>
             <img src="images/diamond.gif" alt="Diamond" width="15" height="15" background="none"><span id="small">  <?php echo $diamonds; ?></span>
             <span>Score: <?php echo $score; ?></span>
             <span>Lives left: <?php echo $life; ?></span>
@@ -75,19 +86,19 @@
             }
         }
 
-
-        $query = "SELECT * FROM player WHERE player_id = '$id'";
-			        $result = mysqli_query($con,$query);
-                    $rows = mysqli_num_rows($result);
-			        $row = mysqli_fetch_assoc($result);
-			        if($rows == 1){
-                        $_SESSION['id'] = $row['player_id'];
-                        $_SESSION['playername'] = $row['playername'];
-                        $_SESSION['score'] = $row['score'];
-                        $_SESSION['life'] = $row['life'];
-                        $_SESSION['diamonds'] = $row['diamonds'];
+        $query2 = "SELECT * FROM player WHERE player_id = '$id'";
+			        $result2 = mysqli_query($con,$query2);
+                    $rows2 = mysqli_num_rows($result2);
+			        $row2 = mysqli_fetch_assoc($result2);
+			        if($rows2 == 1){
+                        $_SESSION['id'] = $row2['player_id'];
+                        $_SESSION['playername'] = $row2['playername'];
+                        $_SESSION['score'] = $row2['score'];
+                        $_SESSION['life'] = $row2['life'];
+                        $_SESSION['diamonds'] = $row2['diamonds'];
                         $_SESSION['level'] += 1;
                     }
+        
     ?>
     </body>
     

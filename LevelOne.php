@@ -3,17 +3,17 @@
     include('connect.php');
     $id = $_SESSION['id'];
     $query = "SELECT * FROM player WHERE player_id = '$id'";
-			        $result = mysqli_query($con,$query);
-                    $rows = mysqli_num_rows($result);
-			        $row = mysqli_fetch_assoc($result);
-			        if($rows == 1){
-                        $_SESSION['id'] = $row['player_id'];
-                        $_SESSION['playername'] = $row['playername'];
-                        $_SESSION['score'] = $row['score']+100;
-                        $_SESSION['life'] = $row['life'];
-                        $_SESSION['diamonds'] = $row['diamonds']+10;
-                        $_SESSION['level'] += 1;
-                    }
+    $result = mysqli_query($con,$query);
+    $rows = mysqli_num_rows($result);
+    $row = mysqli_fetch_assoc($result);
+    if($rows == 1){
+        $_SESSION['id'] = $row['player_id'];
+        $_SESSION['playername'] = $row['playername'];
+        $_SESSION['score'] = $row['score']+100;
+        $_SESSION['life'] = $row['life'];
+        $_SESSION['diamonds'] = $row['diamonds']+10;
+        $_SESSION['level'] += 1;
+    }
     $playername = $_SESSION['playername'];
     $score = $_SESSION['score'];
     $life= $_SESSION['life'];

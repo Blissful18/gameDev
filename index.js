@@ -11,8 +11,8 @@ const playerSprite = new Image();
 playerSprite.src = "images/angel.png";
 
 let player = new Play(20);
-player.position.x = 5;
-player.position.y = 5;
+player.position.x = 5; //5
+player.position.y = 5; //5
 
 function loop (deltatime)
 {
@@ -90,6 +90,9 @@ function checkForCollision2() {
 
 function nextLevel(){
     if(player.position.x == 1255 && player.position.y == 369 && cnt == 0){
+        // $(document).ready(function(){
+        //     $("#myModal").modal('show');
+        // });
         window.confirm("Level " + (cnt+1) + " Completed");
         cnt++;
         player.position.x = 733; player.position.y = 5;

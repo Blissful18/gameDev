@@ -16,11 +16,11 @@
 	$rows = mysqli_num_rows($result1);
 	$row = mysqli_fetch_assoc($result1);
 	if($rows == 1){
-		$_SESSION['id'] = $row['id'];
-		$_SESSION['playername'] = $username;
-		$_SESSION['score'] = 0;
-		$_SESSION['life'] = 3;
-		$_SESSION['diamonds'] = 0;
+		$_SESSION['id'] = $row['player_id'];
+		$_SESSION['playername'] = $row['playername'];
+		$_SESSION['score'] = $row['score'];
+		$_SESSION['life'] = $row['life'];
+		$_SESSION['diamonds'] = $row['diamonds'];
 	}
 
 	// // SQL Query To Fetch Complete Information Of User

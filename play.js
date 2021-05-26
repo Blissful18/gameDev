@@ -6,8 +6,8 @@ export default class Play
         this.width = 48;
         this.height = 48;
         this.position = {
-            x:0,
-            y:0
+            x:1255,
+            y:360
         };
         this.frameX = 0;
         this.frameY = 0;
